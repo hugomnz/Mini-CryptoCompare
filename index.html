@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Datos de la cotización del par</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>Datos de la cotización del par</h1>
+
+    <!-- Menús desplegables -->
+    <form id="formulario">
+      <label for="cripto">Criptomoneda:</label>
+      <select id="cripto" required>
+        <option value="">Seleccionar criptomoneda</option>
+        <option value="BTC">Bitcoin (BTC)</option>
+        <option value="ETH">Ethereum (ETH)</option>
+        <option value="LTC">Litecoin (LTC)</option>
+        <option value="ADA">Cardano (ADA)</option>
+        <option value="XRP">Ripple (XRP)</option>
+      </select>
+
+      <label for="moneda">Moneda:</label>
+      <select id="moneda" required>
+        <option value="">Seleccionar moneda</option>
+        <option value="USD">Dólar (USD)</option>
+        <option value="EUR">Euro (EUR)</option>
+        <option value="GBP">Libra (GBP)</option>
+        <option value="JPY">Yen (JPY)</option>
+        <option value="ARS">Peso Argentino (ARS)</option>
+      </select>
+
+      <!-- Botón desactivado hasta que se seleccione un par válido -->
+      <button id="boton" type="button" disabled>Actualizar</button>
+    </form>
+
+    <!-- Datos a mostrar -->
+    <section id="resultados">
+      <p><strong>Última actualización realizada:</strong> <span id="fecha"></span></p>
+      <p><strong>Criptomoneda:</strong> <span id="nombreCripto"></span></p>
+      <p><strong>Moneda:</strong> <span id="nombreMoneda"></span></p>
+      <p><strong>Precio:</strong> <span id="precio"></span></p>
+      <p><strong>Volumen 24 horas:</strong> <span id="volumen"></span></p>
+      <p><strong>Imagen de la criptomoneda:</strong><br><img id="imagenCripto" alt="Icono de la criptomoneda"></p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+      <hr>
+      <p>Información proporcionada por <a href="https://www.cryptocompare.com" target="_blank">CryptoCompare</a></p>
+      <p>Pienso, luego opero.</p>
+      <p>Autor: Hugo Muñoz Pérez – <a href="mailto:mperez.hugo6@gmail.com">mperez.hugo6@gmail.com</a></p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!--Compatibilidad garantizada con los siguientes navegadores:
+
+      - Google Chrome   ≥ 42  
+      - Mozilla Firefox ≥ 39  
+      - Microsoft Edge  ≥ 14  
+      - Safari          ≥ 10.1  
+      - Opera           ≥ 29 
+-->

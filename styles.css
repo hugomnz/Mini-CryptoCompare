@@ -1,0 +1,103 @@
+/* Fondo con degradado */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+  }
+  
+  /* Contenedor principal */
+  main {
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  h1 {
+    color: #00796b;
+    margin-bottom: 30px;
+  }
+  
+  /* Formulario */
+  form {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+    color: #00796b;
+  }
+  
+  select {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  /* Botón */
+  button {
+    background-color: #009688;
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  button:disabled {
+    background-color: #b2dfdb;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #00796b;
+    transform: scale(1.05);
+  }
+  
+  /* Resultados */
+  #resultados {
+    text-align: left;
+    margin-top: 25px;
+    font-size: 16px;
+  }
+  
+  #resultados p {
+    margin: 10px 0;
+  }
+  
+  #resultados img {
+    margin-top: 10px;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  footer a {
+    color: #009688;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
