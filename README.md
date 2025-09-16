@@ -48,3 +48,5 @@ y muestra información como:
    git clone https://github.com/hugomnz/mini-cryptocompare.git
 2. Abre el archivo index.html en tu navegador.
 3. Selecciona una criptomoneda y una moneda, luego pulsa Actualizar para ver los resultados.
+
+Hecho por hugomnz, posee licencia MIT (LICENSE).
